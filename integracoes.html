@@ -9,48 +9,53 @@
 </head>
 
 <body>
-  <article class="">
-    <h2>Como melhoramos a experiência de integração do site dos clientes com o RD Station</h2>
+  <div class="grid">
+    <div class="grid-banner">
+      Glauco
+    </div>
+    <article class="grid-case">
+      <h2>Como melhoramos a experiência de integração do site dos clientes com o RD Station</h2>
 
-    <p>Breve intro ao RDSM</p>
+      <p>Breve intro ao RDSM</p>
 
-    <p>Para o planejamento do primeiro trimestre de 2017 um estudo que correlacionava métricas de uso e a retenção de clientes indicou forte correlação entre a retenção do produto e a configuração de ao menos uma integração de entrada ou saída de Leads com o RD Station.</p>
+      <p>Para o planejamento do primeiro trimestre de 2017 um estudo que correlacionava métricas de uso e a retenção de clientes indicou forte correlação entre a retenção do produto e a configuração de ao menos uma integração de entrada ou saída de Leads com o RD Station.</p>
 
-    <p>Entendia-se qualitativamente que as integrações evidenciavam o valor do produto seja facilitando a entrada de novos Leads, seja passando estes para outras ferramentas. O problema identificado foi que as integrações não eram facilmente adotadas por clientes da base.</p>
+      <p>Entendia-se qualitativamente que as integrações evidenciavam o valor do produto seja facilitando a entrada de novos Leads, seja passando estes para outras ferramentas. O problema identificado foi que as integrações não eram facilmente adotadas por clientes da base.</p>
 
-    <p>Com isso o time responsável por Integrações recebeu a missão de aumentar em <em>N%</em> a adoção de Integrações de entrada (formulários no site) nos primeiros 2 meses do ciclo de vida de clientes.</p>
+      <p>Com isso o time responsável por Integrações recebeu a missão de aumentar em <em>N%</em> a adoção de Integrações de entrada (formulários no site) nos primeiros 2 meses do ciclo de vida de clientes.</p>
 
-    <p>Com base no histórico de suporte do time e na experiência de atendimento do time de Implementação os principais problemas mapeados foram:</p>
+      <p>Com base no histórico de suporte do time e na experiência de atendimento do time de Implementação os principais problemas mapeados foram:</p>
 
-    <ul>
-      <li>As clientes desconheciam o processo de integração do seu site com o RD Station;</li>
-      <li>O processo de integração do site das clientes era complexo e em geral as pessoas não possuíam o conhecimento técnico necessário para executar as integrações de formulários;</li>
-    </ul>
+      <ul>
+        <li>As clientes desconheciam o processo de integração do seu site com o RD Station;</li>
+        <li>O processo de integração do site das clientes era complexo e em geral as pessoas não possuíam o conhecimento técnico necessário para executar as integrações de formulários;</li>
+      </ul>
 
-    <p>Para estes problemas uma série de apostas de solução foram levantadas e o time começou a experimentar iniciando pelas que exigiam menor esforço de desenvolvimento. Neste momento fui convidado a participar da iniciativa para ajudar com Design e comecei a investigar a situação.</p>
+      <p>Para estes problemas uma série de apostas de solução foram levantadas e o time começou a experimentar iniciando pelas que exigiam menor esforço de desenvolvimento. Neste momento fui convidado a participar da iniciativa para ajudar com Design e comecei a investigar a situação.</p>
 
-    <p>Observando os resultados pouco significantes dos experimentos relacionados a aumentar a visibilidade das integrações vendi para o time uma ideia que aprendi com livro Lean UX do Jeff Gothelf: priorizar hipóteses de solução pelo valor entregue e o risco (o quão ruim seria se estivermos errados?). Assim a redução da complexidade da integração subiu de prioridade.</p>
+      <p>Observando os resultados pouco significantes dos experimentos relacionados a aumentar a visibilidade das integrações vendi para o time uma ideia que aprendi com livro Lean UX do Jeff Gothelf: priorizar hipóteses de solução pelo valor entregue e o risco (o quão ruim seria se estivermos errados?). Assim a redução da complexidade da integração subiu de prioridade.</p>
 
-    <p>Sabíamos que para fazer uma configuração de uma integração a cliente precisava inserir um bloco de código JavaScript à página desejada referenciando o ID do formulário que desejava integrar. </p>
+      <p>Sabíamos que para fazer uma configuração de uma integração a cliente precisava inserir um bloco de código JavaScript à página desejada referenciando o ID do formulário que desejava integrar. </p>
 
-    <p>Existia no produto uma funcionalidade chamada Código de Monitoramento. Também um bloco de código que diferente da integração de formulários era tratado como requisito de implementação. Com este código outros recursos como a exibição de pop-ups era configurado.</p>
+      <p>Existia no produto uma funcionalidade chamada Código de Monitoramento. Também um bloco de código que diferente da integração de formulários era tratado como requisito de implementação. Com este código outros recursos como a exibição de pop-ups era configurado.</p>
 
-    <p>O Código de Monitoramento entregava mais valor com menos configuração. Nossa nova aposta era injetar a solução da integração de formulários no Código de Monitoramento.</p>
+      <p>O Código de Monitoramento entregava mais valor com menos configuração. Nossa nova aposta era injetar a solução da integração de formulários no Código de Monitoramento.</p>
 
-    <p>Fiz um protótipo rápido e sujo da minha visão de como funcionaria esta integração e apresentei para o time. </p>
+      <p>Fiz um protótipo rápido e sujo da minha visão de como funcionaria esta integração e apresentei para o time. </p>
 
-    <p><strong>IMAGEM DO PROTOTIPO RAPIDO E SUJO</strong></p>
+      <p><strong>IMAGEM DO PROTOTIPO RAPIDO E SUJO</strong></p>
 
-    <p>Entendíamos que a solução deveria ir naquele caminho, mas precisávamos colocar esta ideia no mercado para sentir se de fato aumentaríamos a quantidade de integrações com esta abordagem.</p>
+      <p>Entendíamos que a solução deveria ir naquele caminho, mas precisávamos colocar esta ideia no mercado para sentir se de fato aumentaríamos a quantidade de integrações com esta abordagem.</p>
 
-    <p>A primeira versão foi lançada duas semanas após o desenho da solução para um grupo de novas contas. Diferente do protótipo era apenas uma botão que acionava a captação de formulários, sem oferecer qualquer controle ou mesmo feedback sobre o estado da integração. Com todos estes problemas a recepção das pessoas que trabalhavam diretamente explicando para as clientes como utilizar o produto foi muito calorosa, entendemos como um sinal de que estávamos indo no caminho certo.</p>
+      <p>A primeira versão foi lançada duas semanas após o desenho da solução para um grupo de novas contas. Diferente do protótipo era apenas uma botão que acionava a captação de formulários, sem oferecer qualquer controle ou mesmo feedback sobre o estado da integração. Com todos estes problemas a recepção das pessoas que trabalhavam diretamente explicando para as clientes como utilizar o produto foi muito calorosa, entendemos como um sinal de que estávamos indo no caminho certo.</p>
 
-    <p><strong>IMAGEM EXEMPLIFICANDO FEEDBACKS</strong></p>
+      <p><strong>IMAGEM EXEMPLIFICANDO FEEDBACKS</strong></p>
 
-    <p>A medida que as primeiras clientes foram adotando recebemos pedidos que confirmavam hipóteses do protótipo e auxiliaram na priorização de melhorias. Rapidamente iteramos a solução que em dois meses cobria as funcionalidades que mapeamos como necessárias.</p>
+      <p>A medida que as primeiras clientes foram adotando recebemos pedidos que confirmavam hipóteses do protótipo e auxiliaram na priorização de melhorias. Rapidamente iteramos a solução que em dois meses cobria as funcionalidades que mapeamos como necessárias.</p>
 
-    <p>Um mês após o lançamento para toda a base chegamos aos resultados projetados de crescimento!</p>
-  </article>
+      <p>Um mês após o lançamento para toda a base chegamos aos resultados projetados de crescimento!</p>
+    </article>
+  </div>
 
 </body>
 

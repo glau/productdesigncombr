@@ -6,28 +6,21 @@
   <meta charset="utf-8">
   <meta name="description" content="Designer especializado em produtos digitais">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;900&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css"> -->
   <style>
 
 body {
       font-family: 'Fira Sans', sans-serif;
-      font-size: 21pt;
+      font-size: 24px;
       }
 
-    @media (max-width: 768px) {
-      section, article {
-      width: 60%;
-      margin: 4em auto;
-    }
-    }
 
-    @media (min-width: 768px) {
-      section, article {
-      width: 60%;
+      section, article, nav, address {
+      max-width: 58ch;
       margin: 4em auto;
+      line-height: 1.6em;
     }
     
-    article, article + article {
+    article, article + article, address {
       margin-top: 16em;
     }
 
@@ -42,41 +35,46 @@ body {
 
     .apresentacao p {
       font-size: 1.6em;
+      line-height: 1.2em;
     }
 
     a:hover {
       text-decoration: none;
     }
-  }
   </style>
 </head>
 <body>
   
-    <section class="apresentacao">
-      <img src="arte.svg" alt="Ilustração abstrata inspirada em pintura observada em uma bienal de arte" style="max-width:50%;">
-      <p>Oi! Meu nome é Glauco, obrigado pela visita :) Neste site eu compartilho um e outro caso da minha experiência como designer de produtos digitais.</p>
+    <section class="apresentacao" id="topo">
+      <img src="arte.svg" alt="Ilustração abstrata inspirada em pintura observada em uma bienal de arte" style="max-width:40%;">
+      <p>Oi! Eu sou o Glauco. Neste site compartilho um e outro caso da minha experiência como designer de produtos digitais</p>
     </section>
     
-    <section class="navegacao">
+    <nav class="navegacao">
       <ul>
         <li><a href="#caso-midias-sociais">Quando projetei uma ferramenta para marketing nas mídias sociais</a></li>
-        <li><a href="#caso-integracoes">Quando alavanquei a adoção de uma funcionalidade de integração</a></li>
+        <li><a href="#caso-integracoes">Quando estimulei a adoção de uma funcionalidade de integração</a></li>
       </ul>
-    </section>
+    </nav>
+
+    <address id="contato">
+      <p>Vamos conversar! Estou no <a href="https://www.linkedin.com/in/glaucocardoso/">LinkedIn</a> e no email <a href="mailto:glauco87@gmail.com">glauco87@gmail.com</a></p>
+    </address>
 
     <article id="caso-midias-sociais">
       <h1>Quando projetei uma ferramenta para marketing nas mídias sociais</h1>
-      <p>Neste relato eu sintetizo o trabalho de desenvolvimento de produto realizado em 9 meses como designer em um time multidisciplinar</p>
+      <p>Pretendo sintetizar o trabalho de pesquisa e design realizado em um período 9 meses como designer em um time multidisciplinar de produto, design e engenharia.</p>
       <p>O produto é uma plataforma com as ferramentas para que uma empresa seja capaz de operar a seguinte estratégia de marketing digital: atrair visitantes, convertê-los em leads de marketing e relacionar-se com estes para identificar oportunidades de negócio.</p>
       <p>Na ocasição a direção de produto foi melhorar a funcionalidade de agendamento em mídias sociais. Um componente importante para a proposta de valor tudo-em-um da plataforma.</p>
-      <p>Analisamos as alternativas no mercado, entrevistamos clientes e especialistas em marketing nas mídias sociais. No papel de designer liderei análises heurísticas, pesquisas de mesa, testes de usabilidade, facilitação de ideações e prototipação de opções.</p>
+      <p>Analisamos as alternativas no mercado, entrevistamos clientes e especialistas em marketing nas mídias sociais. No papel de designer liderei análises heurísticas, pesquisas de mesa, testes de usabilidade, facilitação de dinâmicas criativas e prototipagem de opções.</p>
       <img src="redes-sociais-1.png" alt="Esquema representando a interação do produto ao inicio das intervenções">
-      <p>Identificamos que a frequência de publicações era um fator associado ao sucesso dos clientes e por isso apostamos em explorar o conceito de agenda.</p>
+      <p>Existiam muitas oportunidades de design e priorizamos algumas apostas. Identificamos por exemplo que a frequência de publicações era um fator associado ao sucesso dos clientes e por isso exploraramos o conceito de calendário.</p>
       <img src="redes-sociais-2.png" alt="Esquema representando a as visualizações semanal e mensal do calendário">
-      <p>Nas pesquisas identificamos a insegurança com o formato da publicação como um impedimento para o uso. Por isso apostamos em incluir a pré-visualização do conteúdo na interface de edição.</p>
+      <p>Aprendemos nas pesquisas que a insegurança com o formato da publicação era um impedimento para o uso. Por isso apostamos em incluir a pré-visualização do conteúdo na interface de edição.</p>
       <img src="redes-sociais-3.png" alt="Esquema representando a interface de edição">
-      <p>Acompanhar o retorno das ações de marketing é um dos valores percebidos pelos clientes. Desenvolvemos a capacidade de monitorar o número de leads originados de uma publicação nas mídias sociais. Uma funcionalidade então difícil de ser encontrada em produtos concorrentes.</p>
-      <p>Problemas de usabilidade evidentes e a falta de um diferencial com relação as alternativas afastavam os clientes desta funcionalidade. Com nossas apostas percebemos sinais positivos nos indicadores de adoção e retenção do produto.</p>
+      <p>Acompanhar o retorno das ações de marketing era outra proposta de valor da plataforma. Desenvolvemos a capacidade de monitorar o número de leads originados de uma publicação nas mídias sociais. Uma funcionalidade então difícil de ser encontrada nos produtos concorrentes.</p>
+      <p>Problemas de usabilidade e falta de um diferencial com relação as alternativas afastavam os clientes desta funcionalidade. Com nossas apostas percebemos sinais positivos nos indicadores de adoção e retenção do produto.</p>
+      <p><a href="#topo"> Voltar para o topo 🆙</a></p>
     </article>
 
     <article id="caso-integracoes">
@@ -87,12 +85,15 @@ body {
       <p>Analisamos produtos similares, nossos indicadores de uso, casos do suporte técnico, entrevistamos clientes e analistas de implementação. </p>
       <p>Criamos opções que poderiam estimular a adoção. Apostamos inicialmente em esforços para aumentar a detectabilidade da funcionalidade. Tivemos mais trágefo mas não mais ativações.</p>
       <p>Para o perfil de clientes a necessidade de realizar configurações manuais no script era um impedimento ao uso. A integração precisava ser plug-and-play.</p>
-      <p>Construímos uma versão mínima da solução em cerca de um mês e lançamos para um primeiro grupo de clientes. Percebemos uma resposta qualitativa muito positiva.</p>
-      <img src="integracoes-1.png" alt="Esquema representando o MVP da solução">
-      <p>Implementamos melhorias de usabilidade que ofereciam aos clientes mais controle sobre os formulários integrados e ampliamos o alcance da nova solução. </p>
+      <p>Construímos uma versão mínima da solução em um mês e lançamos para um primeiro grupo de clientes. Percebemos uma resposta qualitativa muito positiva.</p>
+      <img src="integracoes-1.png" alt="Esquema representando o MVP da solução" style="width: 50%; margin: auto; display: block;">
+      <p>Implementamos melhorias de usabilidade que ofereciam aos clientes mais controle sobre os formulários integrados e ampliamos o alcance da nova solução.</p>
       <img src="integracoes-2.png" alt="Esquema representando as melhorias no controle dos formulários integrados">
-      <p>Em cerca de 3 meses lançamos a primeira versão da solução para toda base e nos meses seguintes alcançamos a meta projetada para a taxa de ativação de novos clientes.</p>
+      <p>Em 3 meses lançamos a primeira versão da solução para toda base e nos meses seguintes alcançamos a meta projetada para a taxa de ativação de novos clientes.</p>
+      <p><a href="#topo">Voltar para o topo 🆙</a></p>
     </article>
+
+    
 </body>
 
 </html>

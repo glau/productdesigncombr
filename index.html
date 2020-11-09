@@ -5,32 +5,71 @@
   <title>Glauco</title>
   <meta charset="utf-8">
   <meta name="description" content="Designer especializado em produtos digitais">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
 
-<body>
-  <header>
-    <h1>Glauco</h1>
-    <p>Designer de produtos digitais</p>
-  </header>
-
-  <p>A inspiração é fugaz, violenta. Qualquer empecilho a perturba e mesmo emudece. Arte, que, somada a Lirismo, dá Poesia, não consiste em prejudicar a doida carreira do estado lírico para avisá-lo das pedras e cercas de arame do caminho. Deixe que tropece, caia e se fira. Arte é mondar mais tarde o poema de repetições fastientas, de sentimentalidades românticas, de pormenores inúteis ou inexpressivos.</p>
-
-  <p>de Andrade, Mário. <strong>Pauliceia Desvairada</strong> (Locais do Kindle 125-129). Unknown. Edição do Kindle.</p>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4311187-6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css"> -->
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
     }
-    gtag('js', new Date());
 
-    gtag('config', 'UA-4311187-6');
-  </script>
+    section, article {
+      width: 36em;
+      margin: 0 auto;
+    }
 
+    article h1 {
+      text-transform: uppercase;
+      font-size:medium;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .apresentacao p {
+      font-size: x-large;
+    }
+  </style>
+</head>
+<body>
+  
+    <section class="apresentacao">
+      <p>Oi! Meu nome é Glauco e neste site eu compartilho um e outro caso da minha experiência como designer de produtos digitais.</p>
+    </section>
+    
+    <section class="navegacao">
+      <ul>
+        <li><a href="#caso-midias-sociais">Quando projetei uma ferramenta para marketing nas mídias sociais</a></li>
+        <li><a href="#caso-integracoes">Quando alavanquei a adoção de uma funcionalidade de integração</a></li>
+      </ul>
+    </section>
+
+    <article id="caso-redes-sociais">
+      <h1>Quando projetei uma ferramenta para marketing nas mídias sociais</h1>
+      <p>Neste relato eu sintetizo o trabalho de desenvolvimento de produto realizado em 9 meses como designer em um time multidisciplinar</p>
+      <p>O produto é uma plataforma com as ferramentas para que uma empresa seja capaz de operar a seguinte estratégia de marketing digital: atrair visitantes, convertê-los em leads de marketing e relacionar-se com estes para identificar oportunidades de negócio.</p>
+      <p>Na ocasição a direção de produto foi melhorar a funcionalidade de agendamento em mídias sociais. Um componente importante para a proposta de valor tudo-em-um da plataforma.</p>
+      <p>Analisamos as alternativas no mercado, entrevistamos clientes e especialistas em marketing nas mídias sociais. No papel de designer liderei análises heurísticas, pesquisas de mesa, testes de usabilidade, facilitação de ideações e prototipação de opções.</p>
+      <p>Identificamos que a frequência de publicações era um fator associado ao sucesso dos clientes e por isso apostamos em explorar o conceito de agenda.</p>
+      <p>Nas pesquisas identificamos a insegurança com o formato da publicação como um impedimento para o uso. Por isso apostamos em incluir a pré-visualização do conteúdo na interface de edição.</p>
+      <p>Acompanhar o retorno das ações de marketing é um dos valores percebidos pelos clientes. Desenvolvemos a capacidade de monitorar o número de leads originados de uma publicação nas mídias sociais. Uma funcionalidade então difícil de ser encontrada em produtos concorrentes.</p>
+      <p>Problemas de usabilidade evidentes e a falta de um diferencial com relação as alternativas afastavam os clientes desta funcionalidade. Com nossas apostas percebemos sinais positivos nos indicadores de adoção e retenção do produto.</p>
+      <img src="ilustra.png">
+    </article>
+
+    <article id="caso-integracoes">
+      <h1>Quando aumentei a adoção de uma funcionalidade de integração</h1>
+      <p>Neste relato eu sintetizo o trabalho de desenvolvimento de produto realizado em 9 meses como designer em um time multidisciplinar</p>
+      <p>O produto é uma plataforma com as ferramentas para que uma empresa seja capaz de operar a seguinte estratégia de marketing digital: atrair visitantes, convertê-los em leads de marketing e relacionar-se com estes para identificar oportunidades de negócio.</p>
+      <p>O fluxo de leads é importante para o sucesso da estratégia de marketing descrita. Uma tese de negócios defendeu que deveríamos aumentar a taxa de clientes que integravam os formulários do seu site com a plataforma.</p>
+      <p>Analisamos produtos similares, nossos indicadores de uso, casos do suporte técnico, entrevistamos clientes e analistas de implementação. </p>
+      <p>Criamos opções que poderiam estimular a adoção. Apostamos inicialmente em esforços para aumentar a detectabilidade da funcionalidade. Tivemos mais trágefo mas não mais ativações.</p>
+      <p>Para o perfil de clientes a necessidade de realizar configurações manuais no script era um impedimento ao uso. A integração precisava ser plug-and-play.</p>
+      <p>Construímos uma versão mínima da solução em cerca de um mês e lançamos para um primeiro grupo de clientes. Percebemos uma resposta qualitativa muito positiva.</p>
+      <p>Implementamos melhorias de usabilidade que ofereciam aos clientes mais controle sobre os formulários integrados e ampliamos o alcance da nova solução. </p>
+      <p>Em cerca de 3 meses lançamos a primeira versão da solução para toda base e nos meses seguintes alcançamos a meta projetada para a taxa de ativação de novos clientes.</p>
+    </article>
 </body>
 
 </html>

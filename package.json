@@ -1,0 +1,24 @@
+{
+  "name": "glaucoxyz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aula13.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glau/glaucoxyz.git"
+  },
+  "keywords": [],
+  "author": "Glauco Cardoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glau/glaucoxyz/issues"
+  },
+  "homepage": "https://github.com/glau/glaucoxyz#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0"
+  }
+}

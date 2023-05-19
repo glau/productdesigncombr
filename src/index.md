@@ -8,6 +8,9 @@ This is my website. Here you can find a few case studies and some of my thoughts
 
 I am available for freelancing or the right full time remote position. Check out a small review of my previous work experience and reach out!
 
+## Case Stories
+Personal tales and Insights on navigating the dynamics of professional design in Scale-up Companies and Digital Transformation consultancies.
+
 ## How I approach the Product Design Process
 I think of product design as the process of making choices to solve a product problem.
 

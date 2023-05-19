@@ -24,6 +24,7 @@ title: Glauco Cardoso
       html,
       body {
         height: 100%;
+        color: #333745;
       }
       /* Typographic tweaks! 4. Add accessible line-height; 5. Improve text rendering */
       body {
@@ -81,6 +82,11 @@ title: Glauco Cardoso
       
       p:has(+ h2) {
         margin-bottom: 2rem;
+      }
+      h1 + p,
+      h2 + p,
+      h3 + p {
+        margin-top: 1rem;
       }
       p {
         margin-bottom: 1rem;

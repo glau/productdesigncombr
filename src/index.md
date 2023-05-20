@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: index.njk
 title: Glauco Cardoso
 ---
 
@@ -10,6 +10,8 @@ I am available for freelancing or the right full time remote position. Check out
 
 ## Case Stories
 Personal tales and Insights on navigating the dynamics of professional design in Scale-up Companies and Digital Transformation consultancies.
+
+[Social Media Tools for Inbound Marketing](cases/social-media-tools)
 
 ## How I approach the Product Design Process
 I think of product design as the process of making choices to solve a product problem.

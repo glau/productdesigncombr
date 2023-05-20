@@ -1,13 +1,10 @@
----
-title: Glauco Cardoso
----
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>All cases</title>
     <style>
       * 1. Use a more-intuitive box-sizing model. */ *,
       *::before,
@@ -29,7 +26,9 @@ title: Glauco Cardoso
       /* Typographic tweaks! 4. Add accessible line-height; 5. Improve text rendering */
       body {
         /* line-height: 1.5; */
+        font-family: zeitung-micro, sans-serif;
         -webkit-font-smoothing: antialiased;
+        font-size: 16px;
       }
       /* 6. Improve media defaults */
       img,
@@ -68,7 +67,6 @@ title: Glauco Cardoso
       }
       /* adobe fonts */
       p {
-        font-family: zeitung-micro, sans-serif;
         font-weight: 400;
         font-style: normal;
       }
@@ -91,12 +89,21 @@ title: Glauco Cardoso
       p {
         margin-bottom: 1rem;
       }
+      header {
+        padding: 1rem;
+      }
     </style>
     <link rel="stylesheet" href="https://use.typekit.net/jah3ebf.css">
   </head>
   <body>
+    <header>
+      <h1><a href="/">Glauco Cardoso</a></h1>
+      <a href="/cases">All cases</a>
+    </header>
     <div class="wrapper">
-      {{ content | safe }}
+      <h1>All cases</h1>
+<p><a href="/cases/social-media-tools">Social Media Tools for Inbound Marketing</a></p>
+
     </div>
   </body>
 </html>

@@ -9,6 +9,9 @@ title: Glauco Cardoso
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <style>
+      html {
+      color-scheme: light dark;
+      }
       * 1. Use a more-intuitive box-sizing model. */ *,
       *::before,
       *::after {
@@ -29,7 +32,7 @@ title: Glauco Cardoso
       /* Typographic tweaks! 4. Add accessible line-height; 5. Improve text rendering */
       body {
         /* line-height: 1.5; */
-        font-family: zeitung-micro, sans-serif;
+        font-family: zeitung, sans-serif;
         -webkit-font-smoothing: antialiased;
         font-size: 16px;
       }
@@ -93,6 +96,8 @@ title: Glauco Cardoso
         margin-bottom: 1rem;
       }
       header {
+        width: min(60ch, 100% - 2rem);
+        margin-inline: auto;
         padding: 1rem;
       }
     </style>
@@ -101,7 +106,6 @@ title: Glauco Cardoso
   <body>
     <header>
       <h1><a href="/">Glauco Cardoso</a></h1>
-      <a href="/cases">All cases</a>
     </header>
     <div class="wrapper">
       {{ content | safe }}

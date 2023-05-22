@@ -9,6 +9,9 @@ title: Glauco Cardoso
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <style>
+      html {
+      color-scheme: light dark;
+      }
       * 1. Use a more-intuitive box-sizing model. */ *,
       *::before,
       *::after {
@@ -25,13 +28,11 @@ title: Glauco Cardoso
       body {
         height: 100%;
         color: #333745;
-        background: linear-gradient(180deg, #60EDD4 0%, rgba(96, 237, 212, 0) 100%);
-        background-attachment: fixed;
       }
       /* Typographic tweaks! 4. Add accessible line-height; 5. Improve text rendering */
       body {
         /* line-height: 1.5; */
-        font-family: zeitung-micro, sans-serif;
+        font-family: zeitung, sans-serif;
         -webkit-font-smoothing: antialiased;
         font-size: 16px;
       }
@@ -67,6 +68,7 @@ title: Glauco Cardoso
         isolation: isolate;
       }
       .wrapper {
+        z-index: 2;
         width: min(55ch, 100% - 2rem);
         margin-inline: auto;
       }
@@ -102,13 +104,18 @@ title: Glauco Cardoso
       p {
         margin-bottom: 1rem;
       }
-      .header {
+      .background {
+        z-index: 1;
+        height: 100vh;
+        width: 100vh;
+        position: absolute;
         background: linear-gradient(180deg, #60EDD4 0%, rgba(96, 237, 212, 0) 100%);
       }
     </style>
     <link rel="stylesheet" href="https://use.typekit.net/jah3ebf.css">
   </head>
   <body>
+    {# <div class="background"></div> #}
     <div class="wrapper">
       {{ content | safe }}
     </div>

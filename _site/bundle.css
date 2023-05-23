@@ -50,6 +50,10 @@ body {
   color: #333745;
 }
 
+img {
+  border-radius: 8px;
+}
+
 /* Typography */
 
 p {
@@ -80,7 +84,7 @@ h2 {
 /* Layout */
 
 .container {
-  width: min(55ch, 100% - 2rem);
+  width: min(55ch, 100% - 1rem);
   margin-inline: auto;
 }
 

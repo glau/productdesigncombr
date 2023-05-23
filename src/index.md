@@ -1,6 +1,6 @@
 ---
 layout: index.njk
-title: Glauco Cardoso
+title: Glauco Cardoso - Digital Product Designer
 ---
 
 # Hi! I'm Glauco
@@ -13,6 +13,7 @@ And I work as a Product Designer. Welcome to my website. Here you can find a few
 Personal tales and Insights on navigating the path of product development.
 </p>
 
+![Social Media Calendar Mockup](/assets/img/social-media-tools/monthly-calendar.png "Social Media Tools for Inbound Marketing")
 [Social Media Tools for Inbound Marketing](cases/social-media-tools)
 
 ## How I approach the Product Design Process

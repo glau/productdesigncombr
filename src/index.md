@@ -4,17 +4,21 @@ title: Glauco Cardoso
 ---
 
 # Hi! I'm Glauco
-This is my website. Here you can find a few case studies and some of my thoughts on Digital Product Design.
-
-I am available for freelancing or the right full time remote position. Check out a small review of my previous work experience and reach out!
+<p class="lead-paragraph">
+And I work as a Product Designer. Welcome to my website. Here you can find a few case stories and some thoughts on Design.
+</p>
 
 ## Case Stories
-Personal tales and Insights on navigating the dynamics of professional design in Scale-up Companies and Digital Transformation consultancies.
+<p class="lead-paragraph">
+Personal tales and Insights on navigating the path of product development.
+</p>
 
 [Social Media Tools for Inbound Marketing](cases/social-media-tools)
 
 ## How I approach the Product Design Process
-I think of product design as the process of making choices to solve a product problem.
+<p class="lead-paragraph">
+Product design is both the final form of a product and the choices made when assembling the product.
+</p>
 
 Firstly, the designer decomposes the product problem into functional problems and conducts analysis to understand how these problems interact and which solution options might be appropriate for them, moving from the whole to the parts.
 

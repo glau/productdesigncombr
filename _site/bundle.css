@@ -1,0 +1,113 @@
+/* Reset and defaults */
+
+html {
+  color-scheme: light dark;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/* Fix Firefox font rendering */
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
+body {
+  font-family: zeitung, sans-serif;
+  font-size: 16px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Style */
+
+/* Typography */
+
+p {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lead-paragraph {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: swear-display, serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: swear-display, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+/* Layout */
+
+.container {
+  width: min(55ch, 100% - 2rem);
+  margin-inline: auto;
+}
+
+
+
+/* Article specific styles */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  column-gap: 1em;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header span {
+  font-variant: all-small-caps;
+  font-weight: 600;
+}
+
+article h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+article h2 {
+  font-size: 32px;
+  font-weight: 400;
+}

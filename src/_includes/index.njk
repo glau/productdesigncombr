@@ -8,116 +8,12 @@ title: Glauco Cardoso
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <style>
-      html {
-      color-scheme: light dark;
-      }
-      * 1. Use a more-intuitive box-sizing model. */ *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
-      /*
-      2. Remove default margin */  
-      * {
-        margin: 0;
-      }
-      /*
-      3. Allow percentage-based heights in the application */
-      html,
-      body {
-        height: 100%;
-        color: #333745;
-      }
-      /* Typographic tweaks! 4. Add accessible line-height; 5. Improve text rendering */
-      body {
-        /* line-height: 1.5; */
-        font-family: zeitung, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        font-size: 16px;
-      }
-      /* 6. Improve media defaults */
-      img,
-      picture,
-      video,
-      canvas,
-      svg {
-        display: block;
-        max-width: 100%;
-      }
-      /* 7. Remove built-in form typography styles */
-      input,
-      button,
-      textarea,
-      select {
-        font: inherit;
-      }
-      /* 8. Avoid text overflows */
-      p,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        overflow-wrap: break-word;
-      }
-      /* 9. Create a root stacking context */
-      #root,
-      #__next {
-        isolation: isolate;
-      }
-      .wrapper {
-        z-index: 2;
-        width: min(55ch, 100% - 2rem);
-        margin-inline: auto;
-      }
-      /* adobe fonts */
-      p {
-        font-family: zeitung-micro, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-
-      h1,
-      h2 {
-        font-family: swear-display, serif;
-        font-weight: 800;
-        font-style: normal;
-      }
-      h1 {
-        font-size: 72px;
-        line-height: 72px;
-      }
-      h2 {
-        font-size: 32px;
-        line-height: 32px;
-      }
-      p:has(+ h2) {
-        margin-bottom: 2rem;
-      }
-      h1 + p,
-      h2 + p,
-      h3 + p {
-        margin-top: 1rem;
-      }
-      p {
-        margin-bottom: 1rem;
-      }
-      .background {
-        z-index: 1;
-        height: 100vh;
-        width: 100vh;
-        position: absolute;
-        background: linear-gradient(180deg, #60EDD4 0%, rgba(96, 237, 212, 0) 100%);
-      }
-    </style>
+    <link rel="stylesheet" href="/bundle.css">
     <link rel="stylesheet" href="https://use.typekit.net/jah3ebf.css">
   </head>
   <body>
-    {# <div class="background"></div> #}
-    <div class="wrapper">
+    <main class="container">
       {{ content | safe }}
-    </div>
+    </main>
   </body>
 </html>

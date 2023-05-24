@@ -194,7 +194,7 @@ header span {
 
 article h1 {
   font-size: 40px;
-  /* font-weight: 600; */
+  line-height: 40px;
 }
 
 article h2 {
@@ -205,4 +205,5 @@ article h2 {
 article figcaption {
   font-family: zeitung-micro, sans-serif;
   font-size: 12px;
+  font-weight: 400;
 }

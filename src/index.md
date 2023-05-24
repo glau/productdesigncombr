@@ -39,6 +39,4 @@ I sounds like a lot, and it is. But the designer does not need to tackle it all 
 
 ## Get in touch
 
-Connect with me on LinkedIn: [Glauco Cardoso](https://www.linkedin.com/in/glaucocardoso/)
-
-Or send an email to [glauco at skiff.com](mailto:glauco@skiff.com)
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/glaucocardoso/) or send an email to [glauco at skiff.com](mailto:glauco@skiff.com)

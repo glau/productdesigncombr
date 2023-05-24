@@ -5,11 +5,11 @@ title: Glauco Cardoso - Social Media Tools for Inbound Marketing
 
 # Social Media Tools for Inbound Marketing
 
-As a product designer at a B2B Inbound Marketing Platform Startup, I shared the the company's mission to empower small and medium businesses in Brazil through our all-in-one SaaS solution and efficient customer success management. However, our product encountered challenges that required us to make significant improvements in the usability and effectiveness of our social media marketing tools, as adoption and retention rates were lower than expected, and users struggled to fully leverage the value they offered.
+As a product designer at a B2B Inbound Marketing Platform Startup, I was part of a product team dedicated to improving our offerings with the goal of increasing customer success in attracting new traffic and leads through social media tactics. We recognized the challenges we faced, including lower-than-expected adoption and retention rates, as well as users struggling to fully leverage the value of our social media marketing tools. To address these issues, we embarked on a mission to enhance the usability and effectiveness of our tools, enabling our users to achieve better results in their social media endeavors.
 
 ## Unveiling User Insights
 
-To gain a deep understanding of user behavior, motivations, and pain points, we conducted extensive research. Our exploration revealed several issues, for the sake of brevity I will highlight: usability concerns, reliance on spreadsheets for planning, and difficulty in establishing a connection between social media tactics and lead generation. With these insights in mind, we embraced autonomy and experimentation to pave the way for improvements.
+To gain a deep understanding of user behavior, motivations, and pain points, we conducted extensive research. Our exploration revealed several issues, for the sake of brevity, I will highlight: usability concerns, reliance on spreadsheets for planning, and difficulty in establishing a connection between social media tactics and lead generation. With these insights in mind, we embraced autonomy and experimentation to pave the way for improvements.
 
 ## Streamlining the Social Organic Channel
 
@@ -27,7 +27,8 @@ We proceeded with the development of a Social Media Calendar, an intuitive tool 
 <figure>
 <img src="/assets/img/social-media-tools/monthly-calendar.png" alt="Monthly Calendar Mockup" title="Monthly Calendar Mockup">
 <figcaption>
-Social Media Calendar eliminates the need for ad-hoc spreadsheets, addressing a common behavior observed during our research.</figcaption>
+Social Media Calendar eliminates the need for ad-hoc spreadsheets, addressing a common behavior observed during our research.
+</figcaption>
 </figure>
 
 ## Unlocking the Potential of Lead Generation
@@ -37,13 +38,13 @@ Recognizing that lead generation was the core value proposition of our platform,
 <figure>
 <img src="/assets/img/social-media-tools/engagement.png" alt="Engagement metrics Mockup" title="Engagement metrics Mockup">
 <figcaption>
-Traditional Social Engagement indicators such as Likes and Comments where treated by some as vanity metrics. Providing conversion data appealed to marketers seeking sales-oriented indicators.
+Traditional Social Engagement indicators such as Likes and Comments were treated by some as vanity metrics. Providing conversion data appealed to marketers seeking sales-oriented indicators.
 </figcaption>
 </figure>
 
 ## Venturing into the Social Paid Channel
 
-As our product evolved, Product saw an opportunity to explore new offerings and expand into the realm of Paid Media. This presented us with unique challenges and exciting possibilities. As usual our target audience demanded user-friendly tools that required minimal training.
+As our product evolved, we saw an opportunity to explore new offerings and expand into the realm of Paid Media. This presented us with unique challenges and exciting possibilities. As usual, our target audience demanded user-friendly tools that required minimal training.
 
 We probed the problem space by integrating Facebook Lead Ads seamlessly, instantly populating our users' lead databases with leads generated through this powerful feature. The success we observed within the cohort of users who activated the new integration surpassed other conversion methods, validating the value of paid media integration.
 

@@ -3,9 +3,9 @@ layout: index.njk
 title: Glauco Cardoso - Digital Product Designer
 ---
 
-# Hi! I'm Glauco
+<h1 class="greetings">Hi! I'm Glauco</h1>
 <p class="lead-paragraph">
-And I work as a Product Designer. Welcome to my website. Here you can find a few case stories and some thoughts on Design.
+And I work as a Digital Product Designer.
 </p>
 
 ## Case Stories
@@ -38,10 +38,7 @@ Thus, the product design effort involves decomposing a product problem in functi
 I sounds like a lot, and it is. But the designer does not need to tackle it all at once. They need to be present and make a judgment call on how and where to channel their energy.
 
 ## Get in touch
-<p class="">
-I would love to hear from you and discuss any exciting opportunities or collaborations. Please feel free to reach out to me using the contact details below:
-</p>
 
-Email: [glauco at skiff.com](mailto:glauco@skiff.com)
+Connect with me on LinkedIn: [Glauco Cardoso](https://www.linkedin.com/in/glaucocardoso/)
 
-LinkedIn: [Glauco Cardoso](https://www.linkedin.com/in/glaucocardoso/)
+Or send an email to [glauco at skiff.com](mailto:glauco@skiff.com)

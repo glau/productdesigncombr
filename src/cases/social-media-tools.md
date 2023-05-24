@@ -18,7 +18,7 @@ Our initial focus was on refining the Social Media Post Editor to address the un
 <figure>
 <img src="/assets/img/social-media-tools/new-post.png" alt="New Post Editor Mockup" title="New Post Editor Mockup">
 <figcaption>
-Social Media Post Editor
+The redesigned new post editor assured editors their content would be published as intended with a Preview Feature
 </figcaption>
 </figure>
 

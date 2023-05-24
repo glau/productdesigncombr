@@ -27,15 +27,17 @@ Social Media Tools for Inbound Marketing
 Product design is both the final form of a product and the choices made when assembling the product.
 </p>
 
-Firstly, the designer decomposes the product problem into functional problems and conducts analysis to understand how these problems interact and which solution options might be appropriate for them, moving from the whole to the parts.
+The designer imerses themselves in the domain where the product exists and starts gaining perspective. At some point priotities emerge and a problem statement is declared. 
 
-From a set of chosen solutions, new product options emerge. There can be numerous product options as there are different sets of solutions.
+The designer then decomposes the big problem into smaller functional problems and conducts analysis to understand how these problems interact and which solution options might be appropriate for them, moving from the whole to the parts.
 
-Lastly, the designer selects the product option that best fits the business purpose, making an educated bet on how the product will interact with the marketplace.
+From a set of chosen solutions, product options emerge. There can be numerous product options as there are different sets of solutions. Optionality is fuel to intent.
+
+With clear goals the designer helps the to select the product option that best fits the business purpose, making an educated bet on how the product will interact with the marketplace.
 
 Thus, the product design effort involves decomposing a product problem in functional problems, understanding how these problems can be solved, increasing optionality, and selecting the best option for a successful product in the marketplace.
 
-I sounds like a lot, and it is. But the designer does not need to tackle it all at once. They need to be present and make a judgment call on how and where to channel their energy.
+I sounds like a lot but it does not need to be done all at once. The designer must be present and make a judgment call on how and where to channel their energy.
 
 ## Get in touch
 

@@ -84,15 +84,15 @@ img {
 
 div.bg {
   pointer-events: none;
-  position: fixed;
+  position: absolute;
   width: 100vw;
-  height: 100px;
+  height: 1em;
   left: 0px;
   top: 0px;
 
-  background: conic-gradient(from 122.15deg at 55.39% 52.25%, #8b80f9 0deg, #6cd4ff 360deg);
+  background: linear-gradient(90deg, #8b80f9 0%, #6cd4ff 100%);
   mix-blend-mode: hard-light;
-  filter: blur(80px);
+  /* filter: blur(2em); */
 }
 
 /* Typography */

@@ -5,7 +5,7 @@ title: Glauco Cardoso - Digital Product Designer
 
 <h1 class="greetings">Hi! I'm Glauco</h1>
 <p class="lead-paragraph">
-And I work as a Digital Product Designer.
+A Digital Product Designer.
 </p>
 
 ## Case Stories

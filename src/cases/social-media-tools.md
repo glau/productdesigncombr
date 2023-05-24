@@ -5,51 +5,50 @@ title: Glauco Cardoso - Social Media Tools for Inbound Marketing
 
 # Social Media Tools for Inbound Marketing
 
-During my tenure as a product designer at a B2B Inbound Marketing Platform Startup, our primary goal was to empower small and medium businesses in Brazil through our all-in-one SaaS solution. However, we encountered challenges with our social media marketing tools that required us to enhance their usability and effectiveness to better serve our users.
+As a product designer at a B2B Inbound Marketing Platform Startup, I shared the the company's mission to empower small and medium businesses in Brazil through our all-in-one SaaS solution and efficient customer success management. However, our product encountered challenges that required us to make significant improvements in the usability and effectiveness of our social media marketing tools, as adoption and retention rates were lower than expected, and users struggled to fully leverage the value they offered.
 
 ## Unveiling User Insights
 
-To gain a deep understanding of user behavior, motivations, and pain points, we conducted extensive research. This exploration revealed several key issues: usability concerns, reliance on spreadsheets for planning, and difficulty in establishing a connection between social media tactics and lead generation. With these insights in mind, we embraced autonomy and experimentation to pave the way for improvements.
+To gain a deep understanding of user behavior, motivations, and pain points, we conducted extensive research. Our exploration revealed several issues, for the sake of brevity I will highlight: usability concerns, reliance on spreadsheets for planning, and difficulty in establishing a connection between social media tactics and lead generation. With these insights in mind, we embraced autonomy and experimentation to pave the way for improvements.
 
 ## Streamlining the Social Organic Channel
 
-Our initial focus was on refining the Social Media Post Editor to address the unexpected surprises users encountered when viewing their published content. By introducing a post preview feature and implementing other usability enhancements, we transformed the tool into a powerful asset that allowed users to effortlessly create captivating posts across various social media platforms.
+Our initial focus was on refining the Social Media Post Editor to address unexpected surprises users encountered when viewing their published content. By introducing a post preview feature and implementing other usability enhancements, we transformed the tool into a powerful asset that allowed users to effortlessly create captivating posts across various social media platforms.
 
 <figure>
 <img src="/assets/img/social-media-tools/new-post.png" alt="New Post Editor Mockup" title="New Post Editor Mockup">
 <figcaption>
-The redesigned new post editor assured editors their content would be published as intended with a Preview Feature
+The New Post editor assured users their content would be published as intended with our Preview Feature.
 </figcaption>
 </figure>
 
-Next, we prioritized the development of a Social Media Calendar, a purpose-built solution to replace ad-hoc methods like spreadsheets. This intuitive tool streamlined the planning and scheduling of social media content, ensuring a consistent online presence for our users. Additionally, we provided valuable content suggestions by highlighting significant Brazilian commemorative dates.
+We proceeded with the development of a Social Media Calendar, an intuitive tool that streamlined the planning and scheduling of social media content, ensuring our users maintain a consistent online presence. Additionally, we provided content suggestions, highlighting significant Brazilian holidays and professional commemorative dates.
 
 <figure>
 <img src="/assets/img/social-media-tools/monthly-calendar.png" alt="Monthly Calendar Mockup" title="Monthly Calendar Mockup">
 <figcaption>
-Monthly Calendar
-</figcaption>
+Social Media Calendar eliminates the need for ad-hoc spreadsheets, addressing a common behavior observed during our research.</figcaption>
 </figure>
 
 ## Unlocking the Potential of Lead Generation
 
-Recognizing that lead generation was the core value proposition of our platform, we directed our attention to a specific feature designed to track leads originating from links shared on social channels. By measuring the direct impact of social media tactics on generating valuable leads, we solidified the alignment between our social media tools and the platform's primary objective.
+Recognizing that lead generation was the core value proposition of our platform, we developed a feature that enabled users to track leads originating from links shared on social channels. By measuring the direct impact of social media tactics on lead generation, we provided unique value and solidified the alignment between our social media tools and the platform's primary objective.
 
 <figure>
 <img src="/assets/img/social-media-tools/engagement.png" alt="Engagement metrics Mockup" title="Engagement metrics Mockup">
 <figcaption>
-Engagement metrics
+Traditional Social Engagement indicators such as Likes and Comments where treated by some as vanity metrics. Providing conversion data appealed to marketers seeking sales-oriented indicators.
 </figcaption>
 </figure>
 
 ## Venturing into the Social Paid Channel
 
-Expanding our offerings to include Facebook Ads presented new challenges and opportunities. Our target audience primarily consisted of small and medium business owners or employees who were new to digital marketing. It was crucial to provide user-friendly tools that required minimal training.
+As our product evolved, Product saw an opportunity to explore new offerings and expand into the realm of Paid Media. This presented us with unique challenges and exciting possibilities. As usual our target audience demanded user-friendly tools that required minimal training.
 
-To address this, we began by integrating Facebook Lead Ads seamlessly with our platform. This integration enabled leads generated through Facebook Lead Ads to instantly populate our customers' lead databases. The success of this integration surpassed other conversion features, demonstrating the value of incorporating paid media strategies.
+We probed the problem space by integrating Facebook Lead Ads seamlessly, instantly populating our users' lead databases with leads generated through this powerful feature. The success we observed within the cohort of users who activated the new integration surpassed other conversion methods, validating the value of paid media integration.
 
-Additionally, we introduced the Facebook Ads Editor, simplifying the creation and publishing process of Facebook ads. This powerful tool empowered SMB digital marketers to effortlessly reach their target audience and optimize their ad campaigns for maximum impact. The positive impact of these efforts was evident through improved adoption and retention rates.
+Building upon this momentum, we introduced the Facebook Ads Editor, simplifying the creation and publishing process of Facebook ads. This simple and powerful tool empowered SMB Digital Marketers to effortlessly reach custom audiences and optimize their ad campaigns for maximum impact.
 
-## Conclusion: Empowering Digital Marketers
+## Learning product teams drive successful outcomes
 
-Throughout my time at the company, our dedication to user-centric design, research-driven insights, and iterative development proved pivotal to our success. By providing intuitive and powerful social media marketing tools, we revolutionized the ability of SMB digital marketers to engage their audience and generate valuable leads. As the digital marketing landscape continues to evolve, our commitment remains unwavering in empowering businesses and equipping them with the confidence to navigate these changes effectively.
+Throughout my time at the company, our dedication to customer-centric design, data-driven insights, and iterative development proved pivotal to our success. By providing intuitive and powerful social media marketing tools, we enhanced the ability of SMB digital marketers to engage their audience and generate valuable leads.

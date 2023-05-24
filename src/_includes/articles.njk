@@ -3,7 +3,7 @@ title: Glauco Cardoso
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="{{ locale }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@ title: Glauco Cardoso
     <div class="bg"></div>
     <header class="article-header container">
       <h1>Glauco Cardoso</h1>
-      <span><a href="/">Back to home page</a></span>
+      <span><a href="{{ "/" | locale_url }}">Back to home page</a></span>
     </header>
     <article class="container">
       {{ content | safe }}

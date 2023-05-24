@@ -2,7 +2,7 @@ const { EleventyI18nPlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: "en", // Required, this site uses "en"
+    defaultLanguage: "pt-BR",
   });
   
   eleventyConfig.addPassthroughCopy("bundle.css");

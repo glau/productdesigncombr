@@ -13,8 +13,14 @@ And I work as a Product Designer. Welcome to my website. Here you can find a few
 Personal tales and Insights on navigating the path of product development.
 </p>
 
-![Social Media Calendar Mockup](/assets/img/social-media-tools/monthly-calendar.png "Social Media Tools for Inbound Marketing")
-[Social Media Tools for Inbound Marketing](cases/social-media-tools)
+<a href="cases/social-media-tools">
+<figure>
+<img src="/assets/img/social-media-tools/monthly-calendar.png" alt="Social Media Calendar Mockup" title="Social Media Tools for Inbound Marketing">
+<figcaption>
+Social Media Tools for Inbound Marketing
+</figcaption>
+</figure>
+</a>
 
 ## How I approach the Product Design Process
 <p class="lead-paragraph">
@@ -30,3 +36,12 @@ Lastly, the designer selects the product option that best fits the business purp
 Thus, the product design effort involves decomposing a product problem in functional problems, understanding how these problems can be solved, increasing optionality, and selecting the best option for a successful product in the marketplace.
 
 I sounds like a lot, and it is. But the designer does not need to tackle it all at once. They need to be present and make a judgment call on how and where to channel their energy.
+
+## Get in touch
+<p class="">
+I would love to hear from you and discuss any exciting opportunities or collaborations. Please feel free to reach out to me using the contact details below:
+</p>
+
+Email: [glauco at skiff.com](mailto:glauco@skiff.com)
+
+LinkedIn: [Glauco Cardoso](https://www.linkedin.com/in/glaucocardoso/)

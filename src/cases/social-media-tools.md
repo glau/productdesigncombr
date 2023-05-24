@@ -15,17 +15,32 @@ To gain a deep understanding of user behavior, motivations, and pain points, we 
 
 Our initial focus was on refining the Social Media Post Editor to address the unexpected surprises users encountered when viewing their published content. By introducing a post preview feature and implementing other usability enhancements, we transformed the tool into a powerful asset that allowed users to effortlessly create captivating posts across various social media platforms.
 
-![Test image](/assets/img/social-media-tools/monthly-calendar.png "Monthly Calendar")
+<figure>
+<img src="/assets/img/social-media-tools/new-post.png" alt="New Post Editor Mockup" title="New Post Editor Mockup">
+<figcaption>
+Social Media Post Editor
+</figcaption>
+</figure>
 
 Next, we prioritized the development of a Social Media Calendar, a purpose-built solution to replace ad-hoc methods like spreadsheets. This intuitive tool streamlined the planning and scheduling of social media content, ensuring a consistent online presence for our users. Additionally, we provided valuable content suggestions by highlighting significant Brazilian commemorative dates.
 
-![Test image](/assets/img/social-media-tools/new-post.png "New Post Editor")
+<figure>
+<img src="/assets/img/social-media-tools/monthly-calendar.png" alt="Monthly Calendar Mockup" title="Monthly Calendar Mockup">
+<figcaption>
+Monthly Calendar
+</figcaption>
+</figure>
 
 ## Unlocking the Potential of Lead Generation
 
 Recognizing that lead generation was the core value proposition of our platform, we directed our attention to a specific feature designed to track leads originating from links shared on social channels. By measuring the direct impact of social media tactics on generating valuable leads, we solidified the alignment between our social media tools and the platform's primary objective.
 
-![Test image](/assets/img/social-media-tools/engagement.png "Engagement metrics")
+<figure>
+<img src="/assets/img/social-media-tools/engagement.png" alt="Engagement metrics Mockup" title="Engagement metrics Mockup">
+<figcaption>
+Engagement metrics
+</figcaption>
+</figure>
 
 ## Venturing into the Social Paid Channel
 

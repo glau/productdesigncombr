@@ -13,7 +13,7 @@ I had the privilege of working closely with a great Product Manager, who brought
 
 Throughout the development process, I made it a priority to engage in continuous desk and primary research. I had insightful video calls and in-person conversations with our final users, exploring their behavior, preferences, and needs.
 
-To effectively organize and synthesize our findings, I developed a comprehensive user story map. This visual representation became a vital tool in our delivery planning, ensuring that our solution remained closely aligned with the user's journey.
+To effectively organize and synthesize and create shared knowledge findings, I settled with user story mapping. This visual representation became a vital tool for sharing knowledge, ensuring that our solution remained closely aligned with the user's journey.
 
 <figure>
 <img src="/assets/img/social-media-tools/user-story-map.png" alt="User Story Map Diagram" title="User Story Mapping the Journey of success with Social Media">

@@ -26,6 +26,7 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
+  filter: drop-shadow(4px 4px 8px rgba(51, 55, 69, .2))
 }
 
 figure {
@@ -65,8 +66,8 @@ h6 {
 body {
   font-family: zeitung, sans-serif;
   font-size: 16px;
-  background-color: #333745;
-  color: #FFF;
+  background-color: #fff;
+  color: #333745;
 }
 
 a {
@@ -91,7 +92,7 @@ div.bg {
   top: 0px;
 
   background: linear-gradient(90deg, #8b80f9 0%, #6cd4ff 100%);
-  mix-blend-mode: hard-light;
+  mix-blend-mode: normal;
   /* filter: blur(2em); */
 }
 

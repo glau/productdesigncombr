@@ -3,14 +3,14 @@ layout: index.njk
 title: Glauco Cardoso - Digital Product Designer
 ---
 
-<h1 class="greetings">Hi! I'm Glauco</h1>
-<p class="lead-paragraph">
-A Digital Product Designer.
+<h1 class="greetings">Glauco Cardoso</h1>
+<p class="">
+— I am a Digital Product Designer
 </p>
 
 ## Case Stories
 <p class="lead-paragraph">
-Personal tales and Insights on navigating the path of product development.
+Personal stories about my experience with digital product development.
 </p>
 
 <a href="cases/social-media-tools">

@@ -15,7 +15,7 @@ Personal tales and Insights on navigating the path of product development.
 
 <a href="cases/social-media-tools">
 <figure>
-<img src="/assets/img/social-media-tools/monthly-calendar.png" alt="Social Media Calendar Mockup" title="Social Media Tools for Inbound Marketing">
+<img src="/assets/img/social-media-tools/cover-art.png" alt="Social Media Calendar Mockup" title="Social Media Tools for Inbound Marketing">
 <figcaption>
 Social Media Tools for Inbound Marketing
 </figcaption>

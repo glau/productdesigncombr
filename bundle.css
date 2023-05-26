@@ -26,7 +26,6 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
-  filter: drop-shadow(4px 4px 8px rgba(51, 55, 69, .2))
 }
 
 figure {
@@ -71,7 +70,7 @@ body {
 }
 
 a {
-  color: #6cd4ff;
+  color: #8b80f9;
   text-decoration: none;
 }
 
@@ -80,7 +79,8 @@ a:hover {
 }
 
 img {
-  border-radius: 8px;
+  border-radius: 4px;
+  filter: drop-shadow(4px 4px 8px rgba(51, 55, 69, .2))
 }
 
 div.bg {

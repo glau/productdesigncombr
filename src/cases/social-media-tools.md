@@ -9,9 +9,7 @@ As a product designer at a B2B Inbound Marketing Platform Startup, I was an inte
 
 ## Unveiling Business and User Insights
 
-I had the privilege of working closely with a great Product Manager, who brought invaluable subject matter expertise, conducted thorough customer research, and provided a holistic business perspective. Collaborating hand in hand, we delved into product data.
-
-As we searched for the best approach to organize and synthesize user needs, I discovered the power of user story mapping. This approach became our go-to method, enabling us to create shared knowledge and maintain a strong alignment between our solution and the user's journey.
+I worked closely with a great Product Manager, who brought invaluable subject matter expertise, product research, and a holistic business perspective. Collaborating hand in hand, we delved into product data. Personaly I made primary research a top priority succesfully connected with users through calls and in person interviews.
 
 To effectively organize and synthesize and create shared knowledge findings, I settled with user story mapping. This visual representation became a vital tool for sharing knowledge, ensuring that our solution remained closely aligned with the user's journey.
 

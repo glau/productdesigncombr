@@ -23,22 +23,26 @@ Social Media Tools for Inbound Marketing
 </a>
 
 ## How I approach the Product Design Process
-<p class="lead-paragraph">
-Product design is both the final form of a product and the choices made when assembling the product.
-</p>
 
-The designer imerses themselves in the domain where the product exists and starts gaining perspective. At some point priotities emerge and a problem statement is declared. 
+Product design is an iterative journey that combines the final form of a product with the strategic choices made throughout its development. It's a dynamic process that requires the designer to be present, adaptable, and responsive to the context and evolving needs.
 
-The designer then decomposes the big problem into smaller functional problems and conducts analysis to understand how these problems interact and which solution options might be appropriate for them, moving from the whole to the parts.
+### Gaining Perspective and Defining Priorities
+The first step is immersing myself in the domain where the product exists. By understanding the industry landscape, target audience, and business goals, I start gaining valuable perspective. As priorities emerge, a clear problem statement is declared, guiding the direction of the design process.
 
-From a set of chosen solutions, product options emerge. There can be numerous product options as there are different sets of solutions. Optionality is fuel to intent.
+### Decomposing and Analyzing
+Next, I break down the overarching problem into smaller functional problems. This decomposition allows for a deeper analysis of how these individual problems interact and influence the overall solution. By studying the interdependencies, I can identify appropriate solution options, moving from the holistic view to the intricate details.
 
-With clear goals the designer helps the to select the product option that best fits the business purpose, making an educated bet on how the product will interact with the marketplace.
+### Fueling Optionality and Intent
+From the range of solution options, different product possibilities emerge. These options provide a breadth of choices, fostering optionality. Each option represents a unique set of solutions, ensuring that diverse approaches are explored. This variety fuels creativity and allows for intentional decision-making, leading to better outcomes.
 
-Thus, the product design effort involves decomposing a product problem in functional problems, understanding how these problems can be solved, increasing optionality, and selecting the best option for a successful product in the marketplace.
+### Aligning with Business Goals
+With clear goals and a comprehensive understanding of the available options, I collaborate closely with stakeholders and decision-makers. Together, we evaluate and select the product option that best aligns with the business purpose. This selection involves making informed judgments about how the product will resonate with the market, ultimately driving its success.
 
-I sounds like a lot but it does not need to be done all at once. The designer must be present and make a judgment call on how and where to channel their energy.
+### Being Present and Adapting
+Throughout the process, the designer's presence is crucial. It's essential to be fully engaged, actively listening to insights from users, stakeholders, and the market. This presence allows for timely adjustments, as the designer makes judgment calls on where to channel their energy and resources, ensuring the design remains aligned with the evolving needs and context.
+
+By embracing the non-linear nature of the product design process and being present in every step, I aim to create meaningful and impactful solutions that truly address the needs and goals of businesses and their users.
 
 ## Get in touch
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/glaucocardoso/) or send an email to [glauco at skiff.com](mailto:glauco@skiff.com)
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/glaucocardoso/) or send an email to [glauco@skiff.com](mailto:glauco@skiff.com)

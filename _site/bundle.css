@@ -32,10 +32,24 @@ figure {
   display: flex;
   flex-direction: column;
   row-gap: 1em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
   margin-inline-start: 0;
+  width: 80vw;
   margin-inline-end: 0;
+}
+
+@media (max-width: 600px) {
+  figure {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0%;
+    width: 100%;
+    margin-inline-end: 0;
+  }
 }
 
 figcaption {
@@ -145,6 +159,7 @@ h2 {
 h2 + p {
   margin-block-start: .25em;
 }
+
 
 h3 {
   font-size: 16px;

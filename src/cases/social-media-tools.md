@@ -5,7 +5,11 @@ title: Glauco Cardoso - Social Media Tools for Inbound Marketing
 
 # Social Media Tools for Inbound Marketing
 
-As a product designer at a B2B Inbound Marketing Platform Startup, I was an integral part of a dedicated product team aiming to enhance our offerings and increase customer success in attracting new traffic and leads through social media tactics. Throughout this case story, I will share my insights and experiences as we embarked on a mission to improve our social media marketing tools and achieve better results for our users.
+As a product designer at a B2B Inbound Marketing Platform Startup, I was an integral part of a dedicated product team aiming to enhance our offerings and increase customer success in attracting new traffic and leads through social media tactics. Throughout this case story, I will share my insights and experiences as we iterated our way to success.
+
+## Our Starting Point
+
+In the fifth year of the startup's journey, business were gaining momentum. However, our social media tools were not performing well. Less than 10 percent of our customers were using them effectively. We knew we needed to make improvements to increase engagement. So, we embarked on a mission to enhance our social media tools and provide a better experience for our users.
 
 ## Unveiling Business and User Insights
 
@@ -61,6 +65,6 @@ Building upon this momentum, we introduced the Facebook Ads Editor, simplifying 
 
 ## Achieving Results through Iterative Development
 
-The journey of product development was anything but linear. It was characterized by moments of chaos as we explored different solutions. Embracing the principles of Kanban Software Development, we continually evolved our work processes. Balancing priorities and considering the broader perspective, we made tough decisions and let go of ideas that didn't align with our objectives.
+It was definitely not a linear story we had our moments of chaos as we explored different solutions. Embracing the principles of Kanban Software Development, we continually evolved our work processes. Balancing priorities and considering the broader perspective, we made tough decisions and let go of ideas that didn't align with our objectives.
 
-With this experience I learned that an flexible and iterative approach leverages outcomes. I witnessed that adoption and retention rates of our social media features experienced a significant boost, with overall adoption going from approximately 8 to 30 percent of our platform's customer base. Living this experience made me aware of the potential of to customer-centric design, data-driven insights, and iterative development and I never took engaged the same way with very prescriptive, linear approaches to product design.
+With this experience I learned that an flexible and iterative approach leverages outcomes. I witnessed that adoption and retention rates of our social media features experienced a significant boost, with overall adoption going from approximately 8 to 30 percent of our platform's customer base.

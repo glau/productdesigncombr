@@ -17,7 +17,7 @@ I worked closely with a great Product Manager, who brought invaluable subject ma
 
 As we searched for the best approach to organize and synthesize user needs, I discovered the power of user story mapping. This approach became our go-to method, enabling us to create shared knowledge and maintain a strong alignment between our solution and the user's journey.
 
-<figure>
+<figure class="contained">
 <img src="/assets/img/social-media-tools/user-story-map.png" alt="User Story Map Diagram" title="User Story Mapping the Journey of success with Social Media">
 <figcaption>
 User story mapping proved invaluable for communicating user needs and synthesizing solutions.

@@ -65,12 +65,12 @@ h6 {
 body {
   font-family: zeitung, sans-serif;
   font-size: 16px;
-  background-color: #333745;
-  color: #FFF;
+  background-color: #fff;
+  color: #333745;
 }
 
 a {
-  color: #6cd4ff;
+  color: #8b80f9;
   text-decoration: none;
 }
 
@@ -79,7 +79,8 @@ a:hover {
 }
 
 img {
-  border-radius: 8px;
+  border-radius: 4px;
+  filter: drop-shadow(4px 4px 8px rgba(51, 55, 69, .2))
 }
 
 div.bg {
@@ -91,7 +92,7 @@ div.bg {
   top: 0px;
 
   background: linear-gradient(90deg, #8b80f9 0%, #6cd4ff 100%);
-  mix-blend-mode: hard-light;
+  mix-blend-mode: normal;
   /* filter: blur(2em); */
 }
 
@@ -138,10 +139,19 @@ h2 {
   font-weight: 600;
   font-style: normal;
   font-size: 40px;
-  margin-block-end: 0;
+  margin-block-end: .25em;
 }
 
 h2 + p {
+  margin-block-start: .25em;
+}
+
+h3 {
+  font-size: 16px;
+  margin-block-end: .25em;
+}
+
+h3 + p {
   margin-block-start: .25em;
 }
 
@@ -191,6 +201,26 @@ header span {
   }
 }
 
+article.container {
+  display: flex;
+  flex-direction: column;
+}
+
+article figure {
+  width: max(100%, 80vw);
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  article figure {
+    width: 100%;
+  }
+}
+
+article figure.contained {
+  width: 100%;
+  align-self: center;
+}
 
 article h1 {
   font-size: 40px;

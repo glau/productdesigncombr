@@ -237,3 +237,12 @@ article figcaption {
   font-size: 12px;
   font-weight: 400;
 }
+
+/* Footer styling */
+
+footer.container {
+  margin-block-start: 2em;
+  padding-block-start: 1em;
+  padding-block-end: 1em;
+  border-top: solid 1px rgba(51, 55, 69, .1);
+}

@@ -16,10 +16,21 @@ title: Glauco Cardoso
     <div class="bg"></div>
     <header class="article-header container">
       <h1>Glauco Cardoso</h1>
-      <span><a href="{{ "/" | locale_url }}">Back to home page</a></span>
+      <span><a href="{{ "/" | locale_url }}">{{ languages[page.lang].toHomePage }}</a></span>
     </header>
     <article class="container">
       {{ content | safe }}
     </article>
+    
+
+    <footer class="container">
+      {{ languages[page.lang].availableText }}
+        {% for link in page.url | locale_links %} {%- if not loop.first %}/{% endif %}
+        <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">{{
+          link.label
+        }}</a>
+        {% endfor %}
+      </nav>
+    </footer>
   </body>
 </html>

@@ -17,5 +17,15 @@ title: Glauco Cardoso
     <main class="container">
       {{ content | safe }}
     </main>
+
+    <footer class="container">
+      {{ languages[page.lang].availableText }}
+        {% for link in page.url | locale_links %} {%- if not loop.first %}/{% endif %}
+        <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">{{
+          link.label
+        }}</a>
+        {% endfor %}
+      </nav>
+    </footer>
   </body>
 </html>

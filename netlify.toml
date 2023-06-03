@@ -1,0 +1,19 @@
+[build]
+  command = "npx eleventy"
+  publish = "_site"
+
+# redirect to english or portuguese landing pages.
+
+[[redirects]]
+  from = "/"
+  to = "/pt"
+  status = 302
+  force= true
+  conditions = {Language = ["pt"]}
+
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 302
+  force = true
+  

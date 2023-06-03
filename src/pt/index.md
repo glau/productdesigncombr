@@ -3,12 +3,12 @@ layout: index.njk
 title: Glauco Cardoso - Digital Product Designer
 ---
 
-<h1 class="greetings">Oi! Sou o Glauco</h1>
-<p class="lead-paragraph">
-Um Designer de Produtos Digitais.
+<h1 class="greetings">Glauco Cardoso</h1>
+<p>
+— Eu sou um Designer de Produtos Digitais
 </p>
 
-## Casos e causos
+## Relatos de Caso
 <p class="lead-paragraph">
 Histórias e insights das minhas experiências com Design de Produtos.
 </p>
@@ -23,21 +23,22 @@ Ferramentas de mídias sociais para Inbound Marketing
 </a>
 
 ## Como eu penso o processo de Design de Produtos
-<p class="lead-paragraph">
-Design é tanto a forma final de um produto como as escolhas que o levaram a ter esta forma.
-</p>
+O design de produtos é tanto a forma final de um produto quanto as escolhas estratégicas feitas durante seu desenvolvimento. É um processo dinâmico que exige que o designer esteja presente, seja adaptável e responda ao seu contexto.
 
-O designer imerge no domínio em que o produto existe e começa a ganhar perspectiva. A dada altura, surgem prioridades e é declarado um problema.
+### Ganhando perspectiva e definindo prioridades
+Este é um estado em que estou mergulhando no domínio em que o produto existe. Ao compreender o cenário do setor, o público-alvo e as metas comerciais, começo a obter uma perspectiva valiosa. À medida que as prioridades surgem, uma declaração clara do problema é declarada, orientando a direção do processo de design.
 
-Em seguida, o designer decompõe o grande problema em problemas funcionais mais pequenos e efectua uma análise para compreender a forma como estes problemas interagem e quais as opções de solução adequadas para eles, passando do todo para as partes.
+### Decomposição e análise
+O problema pode ser visto com várias lentes. Decompô-lo em problemas funcionais menores permite uma análise mais profunda de como esses problemas individuais interagem e influenciam a solução geral. Ao estudar as interdependências, posso identificar as opções de solução adequadas, passando da visão holística para os detalhes intrincados.
 
-A partir de um conjunto de soluções seleccionadas, surgem as opções de produto. Podem existir inúmeras opções de produtos, uma vez que existem diferentes conjuntos de soluções. A opcionalidade é o combustível da intenção.
+### Alimentando a opcionalidade e a intenção
+A partir da gama de opções de solução, surgem diferentes possibilidades de produtos. Essas opções oferecem uma ampla gama de escolhas, promovendo a opcionalidade. Cada opção representa um conjunto exclusivo de soluções, garantindo que diversas abordagens sejam exploradas. Essa variedade estimula a criatividade e permite a tomada de decisões intencionais.
 
-Com objectivos claros, o designer ajuda a seleccionar a opção de produto que melhor se adequa ao objectivo comercial, fazendo uma aposta informada sobre a forma como o produto irá interagir com o mercado.
+### Alinhamento com as metas de negócios
+Com metas claras e uma compreensão abrangente das opções disponíveis, colaboro estreitamente com as partes interessadas e os tomadores de decisão. Juntos, avaliamos e selecionamos a opção de produto que melhor se alinha com o objetivo comercial. Essa seleção envolve fazer julgamentos informados sobre como o produto repercutirá no mercado, o que, em última análise, impulsionará seu sucesso.
 
-Assim, o esforço de concepção do produto envolve a decomposição de um problema de produto em problemas funcionais, a compreensão de como estes problemas podem ser resolvidos, o aumento da opcionalidade e a selecção da melhor opção para um produto de sucesso no mercado.
-
-Parece muito, mas não precisa de ser feito tudo de uma vez. O designer deve estar presente e decidir como e para onde canalizar a sua energia.
+### Estar presente e adaptar-se
+Durante todo o processo, a presença do designer é crucial. É essencial estar totalmente envolvido, ouvindo ativamente as percepções dos usuários, das partes interessadas e do mercado. Essa presença permite ajustes oportunos, pois o designer decide onde canalizar sua energia e seus recursos, garantindo que o design permaneça alinhado com as necessidades e o contexto em evolução.
 
 ## Entre em contato
 

@@ -4,7 +4,7 @@ title: Glauco Cardoso - Digital Product Designer
 ---
 
 <h1 class="greetings">Glauco Cardoso</h1>
-<p class="">
+<p>
 — I am a Digital Product Designer
 </p>
 
@@ -13,7 +13,7 @@ title: Glauco Cardoso - Digital Product Designer
 Personal stories about my experience with digital product development.
 </p>
 
-<a href="cases/social-media-tools">
+<a href="{{ "/cases/social-media-tools" | locale_url }}">
 <figure>
 <img src="/assets/img/social-media-tools/cover-art.png" alt="Social Media Calendar Mockup" title="Social Media Tools for Inbound Marketing">
 <figcaption>

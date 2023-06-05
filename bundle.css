@@ -35,7 +35,6 @@ figure {
   margin-block-start: 2em;
   margin-block-end: 2em;
   margin-inline-start: 0;
-  width: 80vw;
   margin-inline-end: 0;
 }
 
@@ -223,7 +222,6 @@ article.container {
 
 article figure {
   width: max(100%, 80vw);
-  /* max-width: 100vw; */
   align-self: center;
 }
 

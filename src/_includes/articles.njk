@@ -24,13 +24,18 @@ title: Glauco Cardoso
     
 
     <footer class="container">
+      <p>
+        {{ languages[page.lang].siteBuiltWith }} <a href="https://11ty.dev">Eleventy</a> {{ languages[page.lang].siteSchedule }} <a href="https://nesslabs.com/digital-garden-set-up">{{ languages[page.lang].digitalGarden}}</a>.
+      </p>
+      
+      <p>
       {{ languages[page.lang].availableText }}
         {% for link in page.url | locale_links %} {%- if not loop.first %}/{% endif %}
         <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">{{
           link.label
         }}</a>
         {% endfor %}
-      </nav>
+      </p>
     </footer>
   </body>
 </html>

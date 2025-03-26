@@ -1,54 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>product design</title>
-    <style>
-        html {
-            font-size: 2vw;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Design no Brasil</title>
+        <link rel="stylesheet" href="style.css" />
 
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #fff; 
-            color: #333;
-        }
-
-        .text {
-            font-size: 4rem;
-            letter-spacing: 0.1em;
-            padding: 1rem;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #333;
-                color: #fff;
+        <script src="https://cdn.amplitude.com/libs/analytics-browser-2.11.1-min.js.gz"></script>
+        <script>
+            async function initAmplitude() {
+                try {
+                    const response = await fetch(
+                        "/.netlify/functions/amplitude",
+                    );
+                    const data = await response.json();
+                    window.amplitude.init(data.apiKey); // Use the API key from the serverless function
+                } catch (error) {
+                    console.error("Error fetching API key:", error);
+                }
             }
-        }
-    </style>
-    <script src="https://cdn.amplitude.com/libs/analytics-browser-2.11.1-min.js.gz"></script>
-    <script>
-        async function initAmplitude() {
-            try {
-                const response = await fetch('/.netlify/functions/amplitude');
-                const data = await response.json();
-                window.amplitude.init(data.apiKey); // Use the API key from the serverless function
-            } catch (error) {
-                console.error('Error fetching API key:', error);
-            }
-        }
 
-        initAmplitude(); // Call the function to initialize Amplitude
-    </script>
-</head>
-<body>
-    <div class="text">productdesign.com.br</div>
-</body>
-</html> 
+            initAmplitude(); // Call the function to initialize Amplitude
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="banner">
+                <img
+                    src="images/welcome_animated.gif"
+                    alt="Banner de Boas Vindas Piscante!"
+                    width="400"
+                />
+            </div>
+
+            <h1>*** Bem-vindo ao Futuro do Passado! ***</h1>
+
+            <div class="content">
+                <p class="intro-text">
+                    Você chegou ao site mais radical da web sobre:
+                </p>
+
+                <h2 class="main-title">productdesign.com.br</h2>
+
+                <p>Estamos construindo algo INCRÍVEL aqui! Volte sempre!</p>
+
+                <div class="gifs-section">
+                    <img
+                        src="images/under_construction.gif"
+                        alt="Em Construção"
+                        width="100"
+                    />
+
+                    <img
+                        src="images/spinning_globe.gif"
+                        alt="Globo Giratório"
+                        width="80"
+                    />
+
+                    <img src="images/new.gif" alt="NOVO!" width="50" />
+                </div>
+            </div>
+
+            <hr class="separator" />
+
+            <div class="hit-counter">
+                <p>Você é o visitante número:</p>
+
+                <span class="counter-digits">001337</span>
+                <p>Obrigado pela visita!</p>
+            </div>
+
+            <hr class="separator" />
+
+            <div class="contact">
+                <p>Mande um e-mail pra gente!</p>
+                <img src="images/mail.gif" alt="Ícone de Email" width="50" />
+            </div>
+
+            <div class="footer">
+                <p>
+                    © 1998-2023 productdesign.com.br - Todos os direitos
+                    reservados (ou não).
+                </p>
+                <p>
+                    Feito com <span class="heart"><3</span> e muita nostalgia no
+                    estilo
+                    <img
+                        src="images/geocities.gif"
+                        alt="Geocities"
+                        height="15"
+                    />.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

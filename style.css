@@ -1,0 +1,173 @@
+/* Estilo Geocities para productdesign.com.br */
+
+body {
+    /* Fundo caótico? Check! Imagem repetida é essencial */
+    background-color: #000080; /* Azul escuro clássico */
+    background-image: url("images/stars_tile.gif"); /* Use um GIF ou PNG de estrelas que repita bem */
+    /* Nota: Substitua 'images/stars_tile.gif' por uma imagem de fundo repetitiva */
+    background-repeat: repeat;
+    color: #ffff00; /* Texto amarelo sobre azul - combinação clássica e dolorosa */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* A fonte definitiva! */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px; /* Largura fixa, como antigamente */
+    margin: 20px auto; /* Centralizar na página */
+    background-color: #c0c0c0; /* Fundo cinza para o conteúdo */
+    border: 5px ridge #ff00ff; /* Borda exagerada e colorida */
+    padding: 15px;
+    text-align: center; /* Centralizar tudo por padrão */
+    box-shadow: 10px 10px 5px #00000080; /* Sombra sutil? Não aqui! */
+}
+
+.banner img {
+    border: 3px dotted #00ff00; /* Borda pontilhada verde neon */
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #ff00ff; /* Magenta! */
+    font-family:
+        "Impact", "Arial Black", sans-serif; /* Fonte de impacto para títulos */
+    font-size: 2.5em;
+    text-shadow: 2px 2px #00ffff; /* Sombra Ciano - porque sim */
+    /* Efeito piscante (simulado com sombra, já que <blink> morreu) */
+    animation: blink-effect 1s step-end infinite;
+}
+
+/* Simulação de blink */
+@keyframes blink-effect {
+    50% {
+        opacity: 0.3;
+        color: #ffff00; /* Muda de cor ao piscar */
+    }
+}
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1.1em;
+    color: #000000; /* Texto preto sobre cinza para legibilidade (um pouco) */
+}
+
+.main-title {
+    font-size: 3em; /* ENORME! */
+    color: #008000; /* Verde escuro */
+    background-color: #ffffff; /* Fundo branco para destacar */
+    padding: 10px;
+    border: 4px double #ff0000; /* Borda dupla vermelha */
+    margin: 20px auto;
+    display: inline-block; /* Para o fundo não ocupar a largura toda */
+    box-shadow: 5px 5px 0px #ffa500; /* Sombra Laranja */
+    font-family:
+        "Times New Roman", serif; /* Uma fonte 'séria' pra contrastar */
+}
+
+.gifs-section img {
+    margin: 10px 15px;
+    vertical-align: middle;
+    border: 1px solid #000; /* Bordinha simples nos GIFs */
+}
+
+/* Linha Separadora Colorida */
+.separator {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 255, 0, 1),
+        rgba(0, 255, 0, 1),
+        rgba(0, 255, 255, 1),
+        rgba(0, 0, 255, 1),
+        rgba(255, 0, 255, 1)
+    ); /* Arco-íris! */
+    margin: 25px 0;
+}
+
+/* Contador de Visitas Falso */
+.hit-counter {
+    margin-top: 20px;
+    background-color: #000000; /* Fundo preto */
+    color: #00ff00; /* Texto verde neon (estilo terminal) */
+    padding: 10px;
+    border: 2px inset #808080; /* Borda para dentro */
+    display: inline-block; /* Não ocupar a largura toda */
+}
+
+.hit-counter p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.counter-digits {
+    font-family: "Courier New", monospace; /* Fonte monoespaçada para números */
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #1a1a1a;
+    padding: 2px 8px;
+    border: 1px solid #444444;
+    letter-spacing: 3px; /* Espaçamento entre dígitos */
+}
+
+/* Seção de Contato */
+.contact {
+    margin-top: 20px;
+}
+
+.contact img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.contact p {
+    color: #0000ff; /* Texto do contato em azul */
+    display: inline-block;
+}
+
+/* Rodapé */
+.footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px dashed #ff00ff; /* Linha superior tracejada magenta */
+    font-size: 0.8em;
+    color: #444444; /* Cinza escuro para o texto do rodapé */
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer img {
+    vertical-align: middle; /* Alinhar a imagem do Geocities com o texto */
+}
+
+.heart {
+    color: red;
+    font-size: 1.2em;
+}
+
+/* Links (se houver) - Cores clássicas */
+a:link {
+    color: #0000ff; /* Azul */
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #800080; /* Roxo */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ff0000; /* Vermelho ao passar o mouse */
+    background-color: #ffff00; /* Fundo amarelo ao passar o mouse */
+    text-decoration: none;
+}
+
+a:active {
+    color: #00ff00; /* Verde neon ao clicar */
+}
